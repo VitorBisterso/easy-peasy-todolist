@@ -1,15 +1,13 @@
 .add-todo-container {
 	display: flex;
 	flex-direction: row;
-	width: 30%;
-	justify-content: center;
 }
 
 .add-todo-input {
 	display: flex;
 	flex: 9;
 	border-radius: 3px;
-	border: 1px rgba(122, 122, 122, 1) solid;
+	border: 1px rgba(122, 122, 122, 0.5) solid;
 	padding: 4px;
 	margin-right: 30px;
 }

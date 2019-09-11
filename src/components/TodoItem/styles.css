@@ -1,0 +1,21 @@
+.todo-item-container {
+	display: flex;
+	align-items: center;
+	font-family: 'Roboto';
+	color: rgba(34, 34, 34, 1);
+	padding: 5px;
+	border-bottom: 1px rgba(122, 122, 122, 0.5) solid;
+}
+
+.todo-item-container:last-child {
+	border: 0;
+}
+
+.todo-item-container > input, .todo-item-container > i {
+	flex: 1;
+	cursor: pointer;
+}
+
+.todo-item-container > div {
+	flex: 13;
+}

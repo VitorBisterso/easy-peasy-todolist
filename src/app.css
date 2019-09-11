@@ -1,12 +1,20 @@
+p {
+	font-family: 'Roboto';
+	color: rgba(34, 34, 34, 1);
+}
+
 .app-container {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 }
 
 .app-title {
-	font-family: 'Roboto';
+	text-align: center;
 	font-weight: bold;
 	font-size: 25px;
-	color: rgba(34, 34, 34, 1);
+}
+
+.app-content {
+	margin: auto;
+	width: 30%;
 }
