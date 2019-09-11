@@ -1,5 +1,13 @@
 import React from 'react'
+import AddTodo from './components/AddTodo'
 
-const App = () => <p>Hello world</p>
+import './app.css'
+
+const App = () => (
+  <div className="app-container">
+    <p className="app-title">Todo list using easy-peasy state management!</p>
+    <AddTodo />
+  </div>
+)
 
 export default App
