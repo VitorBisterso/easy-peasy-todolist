@@ -1,7 +1,7 @@
-import starshipsModel from './starships'
+import todosModel from './todos'
 
 const storeModel = {
-  starships: starshipsModel
+  todos: todosModel
 }
 
 export default storeModel
