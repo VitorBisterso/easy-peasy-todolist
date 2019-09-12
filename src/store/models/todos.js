@@ -9,16 +9,21 @@ const todosModel = {
       title: payload,
       isCompleted: false
     }
-    state.items.push(todo)
+    return {
+      ...state,
+      items: [...state.items, todo]
+    }
   }),
-  toggle: action((state, payload) => {
-    state.items = state.items.map(item =>
+  toggle: action((state, payload) => ({
+    ...state,
+    items: state.items.map(item =>
       item.id === payload ? { ...item, isCompleted: !item.isCompleted } : item
     )
-  }),
-  delete: action((state, payload) => {
-    state.items = state.items.filter(item => item.id !== payload)
-  })
+  })),
+  delete: action((state, payload) => ({
+    ...state,
+    items: state.items.filter(item => item.id !== payload)
+  }))
 }
 
 export default todosModel

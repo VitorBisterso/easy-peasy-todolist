@@ -1,3 +1,7 @@
+.todo-list-empty {
+	text-align: center;
+}
+
 .todo-list-todos {
 	margin-top: 30px;
 	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);

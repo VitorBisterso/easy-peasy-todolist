@@ -8,7 +8,7 @@ const TodoList = () => {
   const todos = useStoreState(state => state.todos.items)
 
   return todos.length === 0 ? (
-    <p>You don&apos;t have todos...</p>
+    <p className="todo-list-empty">You don&apos;t have todos...</p>
   ) : (
     <div className="todo-list-todos">
       {todos.map(todo => (
