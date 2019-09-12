@@ -6,7 +6,7 @@ import './app.css'
 
 const App = () => (
   <div className="app-container">
-    <p className="app-title">Todo list using easy-peasy state management!</p>
+    <p className="app-title">Todo list using easy-peasy</p>
     <div className="app-content">
       <AddTodo />
       <TodoList />
